@@ -6,6 +6,8 @@ spring:
   profiles:
     active: default
 
+a: 7
+b: 3
 ---
 
 spring:
@@ -16,6 +18,9 @@ spring:
 server:
   port: 7070
 
+a: 5
+b: 12
+
 ---
 
 spring:
@@ -25,3 +30,6 @@ spring:
 
 server:
   port: 4000
+
+a: 8
+b: 14
